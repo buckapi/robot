@@ -532,7 +532,10 @@ p {font-size: 16px; line-height: 22px;}
 .footer-section .middle-portion .footer-text {font-size: 14px; line-height: 20px;}
 .footer-section .middle-portion .icon li {padding-left: 25px; margin-bottom: 10px;}
 #fixed-form-container .body {top: -148px; left: -30px; padding: 16px 10px;}
-#fixed-form-container {width: 38%;}
+#fixed-form-container {width: 40px;
+    height: 40px;
+    background-color: #f8f9fa;
+    border-radius: 50%;}
 /* Projects */
 .sub-banner .banner-section {padding: 31px 0;}
 .sub-banner .banner-section .banner_content {text-align: center;}
