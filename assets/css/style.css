@@ -25,17 +25,17 @@ Project:  Artelligence
     --e-global-color-primary: #262626;
     --e-global-color-secondary: #ae110e;
     --e-global-color-text: #787878;
-    --e-global-color-accent: #2293aa;
+    --e-global-color-accent: #ae110e;
     --e-global-color-white: #ffffff;
-    --e-global-color-very-dark-grayish-blue:#3e454a;
-    --e-global-color-very-dark-blue:#042237;
-    --e-global-color-dark-blue:#cd3329t;
-    --e-global-color-very-blue:#03263e;
-    --e-global-color-very-dark-mostly-black-blue:#02162d;
-    --e-global-color-dark-cyan:#2397ae;
-    --e-global-color-light-black:#2e2e2e;
-    --e-gradient-1:#02162d;
-    --e-gradient-2:#36e0f7;
+    --e-global-color-very-dark-grayish-blue: #3e454a;
+    --e-global-color-very-dark-blue: #362120;
+    --e-global-color-dark-blue: #362120;
+    --e-global-color-very-blue: #362120;
+    --e-global-color-very-dark-mostly-black-blue: #362120;
+    --e-global-color-dark-cyan: #f80f01;
+    --e-global-color-light-black: #2e2e2e;
+    --e-gradient-1: #362120;
+    --e-gradient-2: #ae110e;
 }
 
 body{
@@ -463,11 +463,11 @@ p {
     margin-bottom: 10px;
     display: inline-block;
     transition: all 0.3s ease-in-out;
-    border-bottom: 2px solid #249cb3;
+    border-bottom: 2px solid #ae110e;
 }
 .service-section .service_contentbox .service-box:hover{
-    background-image: linear-gradient(to right, #082e45 0%, #17677e 51%, #249cb3 100%);
-    border-bottom: 2px solid #249cb3;
+    background-image: linear-gradient(to right, #082e45 0%, #17677e 51%, #ae110e 100%);
+    border-bottom: 2px solid #ae110e;
     transform: translateY(-5px);
 }
 .service-section .service_contentbox .service-box:hover h4{
@@ -545,7 +545,7 @@ p {
     margin-bottom: 33px;
 }
 .choose-section .choose_content ul li .circle {
-    background-image: linear-gradient(to right, #082e45 0%, #17677e 51%, #249cb3 100%);
+    background-image: linear-gradient(to right, #082e45 0%, #17677e 51%, #ae110e 100%);
     border-radius: 100px;
     height: 25px;
     width: 25px;
@@ -775,7 +775,8 @@ p {
     left: -150px;
 }
 .testimonial-section .testimonial_content .content-box .box {
-    background-image: linear-gradient(to right, #082e45 0%, #17677e 51%, #249cb3 100%);
+/*    background-image: linear-gradient(to right, #082e45 0%, #17677e 51%, #ae110e 100%);*/
+    background-image: linear-gradient(to right, #3c2d2c 0%, #a53a33 51%, #ff0e00 100%);
     border-radius: 100px;
     height: 64px;
     width: 64px;
@@ -789,7 +790,7 @@ p {
 }
 .testimonial-section .testimonial_content .content-box{
     border: 1px solid var(--e-global-color-white);
-    border-bottom: 2px solid #249cb3;
+    border-bottom: 2px solid #ae110e;
     background: var(--e-global-color-white);
     border-radius: 35px;
     padding: 62px 68px 5px 143px;
@@ -858,7 +859,7 @@ p {
 }
 #carouselExampleControls .carousel-control-prev:hover,
 #carouselExampleControls .carousel-control-next:hover {
-    background-image: linear-gradient(to right,  #082e45 0%, #17677e 51%, #249cb3 100%);
+    background-image: linear-gradient(to right,  #082e45 0%, #17677e 51%, #ae110e 100%);
     color: var(--e-global-color-white);
 }
 .testimonial-section .pagination-outer{
@@ -917,7 +918,7 @@ p {
 .faq-section .accordian-inner .card-body {
     padding: 0px 18px 38px;
     margin: 0 -18px;
-    border-bottom: 2px solid #249cb3;
+    border-bottom: 2px solid #ae110e;
     border-radius: 15px;
 }
 .faq-section .accordion-card a.btn.btn-link:focus {
@@ -1013,7 +1014,7 @@ p {
     padding: 53px 30px 60px;
     background-color: var(--e-global-color-white);
     border: 1px solid white;
-    border-bottom: 2px solid #249cb3;
+    border-bottom: 2px solid #ae110e;
     transition: all 0.3s ease-in-out;
     text-align: center;
     position: relative;
@@ -1490,7 +1491,7 @@ p {
     text-align: center;
     margin-bottom: 24px;
     transition: all 0.3s ease-in-out;
-    border-bottom: 2px solid #249cb3;
+    border-bottom: 2px solid #ae110e;
 }
 .counter-section .counter-box:hover{
     transform: translateY(-5px);
@@ -1555,7 +1556,7 @@ p {
 .accordian-section .accordian-inner .card-body {
     padding: 0px 25px 38px;
     margin: 0 -22px;
-    border-bottom: 2px solid #249cb3;
+    border-bottom: 2px solid #ae110e;
     border-radius: 15px;
 }
 .accordian-section .accordion-card a.btn.btn-link:focus {
@@ -1654,7 +1655,7 @@ p {
     background-color: var(--e-global-color-white);
     border-radius: 30px;
     transition: all 0.3s ease-in-out;
-    border-bottom: 2px solid #249cb3;
+    border-bottom: 2px solid #ae110e;
 }
 .team-section .team-box figure{
     margin-bottom: 25px;
@@ -1725,7 +1726,7 @@ p {
     margin-bottom: 27px;
     display: inline-block;
     transition: all 0.3s ease-in-out;
-    border-bottom: 2px solid #249cb3;
+    border-bottom: 2px solid #ae110e;
 }
 .provide-section .service_contentbox .service-box h4{
     display: inline-block;
@@ -1750,8 +1751,8 @@ p {
     transition: all 0.3s ease-in-out;
 }
 .provide-section .service_contentbox .service-box:hover{
-    background-image: linear-gradient(to right, #082e45 0%, #17677e 51%, #249cb3 100%);
-    border-bottom: 2px solid #249cb3;
+    background-image: linear-gradient(to right, #082e45 0%, #17677e 51%, #ae110e 100%);
+    border-bottom: 2px solid #ae110e;
     transform: translateY(-5px);
 }
 .provide-section .service_contentbox .service-box:hover h4{
@@ -1796,7 +1797,7 @@ p {
     margin-bottom: 28px;
     display: inline-block;
     transition: all 0.3s ease-in-out;
-    border-right: 2px solid #249cb3;
+    border-right: 2px solid #ae110e;
     width: 83%;
 }
 .contact-section .contact-box .box-image{
@@ -1867,7 +1868,7 @@ p {
     padding: 50px 30px 60px;
     background-color: var(--e-global-color-white);
     border: 1px solid white;
-    border-bottom: 2px solid #249cb3;
+    border-bottom: 2px solid #ae110e;
     transition: all 0.3s ease-in-out;
     text-align: center;
     position: relative;
