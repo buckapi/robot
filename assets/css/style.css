@@ -23,13 +23,13 @@ Project:  Artelligence
 
 :root {
     --e-global-color-primary: #262626;
-    --e-global-color-secondary: #2be0f7;
+    --e-global-color-secondary: #ae110e;
     --e-global-color-text: #787878;
     --e-global-color-accent: #2293aa;
     --e-global-color-white: #ffffff;
     --e-global-color-very-dark-grayish-blue:#3e454a;
     --e-global-color-very-dark-blue:#042237;
-    --e-global-color-dark-blue:#052b45;
+    --e-global-color-dark-blue:#cd3329t;
     --e-global-color-very-blue:#03263e;
     --e-global-color-very-dark-mostly-black-blue:#02162d;
     --e-global-color-dark-cyan:#2397ae;
@@ -141,11 +141,11 @@ p {
     display: inline-block;
     border-radius: 30px 30px 30px 0;
     color: var(--e-global-color-white) !important;
-    background-image: linear-gradient(to right, var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right, var(--e-gradient-1) 0%, #f80f01 100%);
 }
 .navbar-nav .nav-item .lets_talk:hover{
     color: var(--e-global-color-white) !important;
-    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, #f80f01 100%);
 }
 .navbar-nav .nav-item .lets_talk:hover .circle{
     background-color: var(--e-global-color-very-dark-blue);
@@ -264,7 +264,7 @@ p {
     border-radius: 30px 30px 30px 0;
     color: var(--e-global-color-white) !important;
     transition: all 0.3s ease-in-out;
-    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, #f80f01 100%);
 }
 .banner-section .banner_content .lets_talk:hover{
     color: var(--e-global-color-white);
@@ -370,7 +370,7 @@ p {
     border-radius: 30px 30px 30px 0;
     color: var(--e-global-color-white) !important;
     transition: all 0.3s ease-in-out;
-    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, #f80f01 100%);
 }
 .about-section .about_content .read_more:hover{
     color: var(--e-global-color-white);
@@ -431,7 +431,7 @@ p {
     border-radius: 30px 30px 30px 0;
     color: var(--e-global-color-white) !important;
     transition: all 0.3s ease-in-out;
-    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, #f80f01 100%);
 }
 .service-section .service_content .read_more:hover{
     color: var(--e-global-color-white);
@@ -574,7 +574,7 @@ p {
     border-radius: 30px 30px 30px 0;
     color: var(--e-global-color-white) !important;
     transition: all 0.3s ease-in-out;
-    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, #f80f01 100%);
     position: relative;
     z-index: 1;
 }
@@ -661,7 +661,7 @@ p {
     margin-bottom: 14px;
 }
 .study-section .case-box .circle {
-    background-image: linear-gradient(to right, #0f4a61 0%, #1d7d94 51%, #28a8bf 100%);
+    background-image: linear-gradient(to right, #422424 0%, #8d211f 51%, #ab0f0d 100%);
     border-radius: 100px;
     height: 45px;
     width: 45px;
@@ -701,7 +701,7 @@ p {
     border-radius: 30px 30px 30px 0;
     color: var(--e-global-color-white) !important;
     transition: all 0.3s ease-in-out;
-    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, #f80f01 100%);
 }
 .study-section .view_all:hover{
     color: var(--e-global-color-white);
@@ -967,7 +967,7 @@ p {
     font-family: 'FontAwesome';
     display: inline-block;
     vertical-align: middle;
-    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, #f80f01 100%);
     color: var(--e-global-color-white);
     font-size: 18px;
     border-radius: 100px;
@@ -977,7 +977,7 @@ p {
     width: 48px;
     height: 48px;
     line-height: 48px;
-    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, #f80f01 100%);
     color: var(--e-global-color-white);
     border-radius: 100px;
     text-align: center;
@@ -1067,7 +1067,7 @@ p {
     color: var(--e-global-color-white);
     transition: all 0.3s ease-in-out;
     border: 0px solid #082e45;
-    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, #f80f01 100%);
 }
 .faq-section .need_content .submit_now:hover{
     color: var(--e-global-color-white);
@@ -1144,7 +1144,7 @@ p {
     margin-right: 0;
 }
 .footer-section .middle-portion .social-icons i:hover{
-    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, #f80f01 100%);
     border: 1px solid #17677e;
     transform: translateY(-5px);
     color: var(--e-global-color-white);
@@ -1293,7 +1293,7 @@ p {
     color: var(--e-global-color-white);
     transition: all 0.3s ease-in-out;
     border: 0px solid #082e45;
-    background-image: linear-gradient(to right, var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right, var(--e-gradient-1) 0%, #f80f01 100%);
 }
 #fixed-form-container .body .submit_now:hover {
     color: var(--e-global-color-white);
@@ -1416,7 +1416,7 @@ p {
     margin-bottom: 33px;
 }
 .aboutpage-section .aboutpage_content ul li .circle {
-    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, #f80f01 100%);
     border-radius: 100px;
     height: 25px;
     width: 25px;
@@ -1444,7 +1444,7 @@ p {
     border-radius: 30px 30px 30px 0;
     color: var(--e-global-color-white) !important;
     transition: all 0.3s ease-in-out;
-    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, #f80f01 100%);
 }
 .aboutpage-section .aboutpage_content .read_more:hover{
     color: var(--e-global-color-white);
@@ -1609,7 +1609,7 @@ p {
     font-family: 'FontAwesome';
     display: inline-block;
     vertical-align: middle;
-    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, #f80f01 100%);
     color: #ffffff;
     font-size: 18px;
     border-radius: 100px;
@@ -1619,7 +1619,7 @@ p {
     width: 48px;
     height: 48px;
     line-height: 48px;
-    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, #f80f01 100%);
     color: #ffffff;
     border-radius: 100px;
     text-align: center;
@@ -1670,7 +1670,7 @@ p {
     display: inline-block;
 }
 .team-section .team-box i{
-    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, #f80f01 100%);
     border-radius: 100px;
     height: 40px;
     width: 40px;
@@ -1921,7 +1921,7 @@ p {
     color: var(--e-global-color-white);
     transition: all 0.3s ease-in-out;
     border: 0px solid #082e45;
-    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, var(--e-gradient-2) 100%);
+    background-image: linear-gradient(to right,  var(--e-gradient-1) 0%, #f80f01 100%);
 }
 .contact-section .need_content .submit_now:hover{
     color: var(--e-global-color-white);
